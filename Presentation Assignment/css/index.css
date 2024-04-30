@@ -1,0 +1,130 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 2px 8px;
+    padding: 0 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.contain {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+  
+.sec-1{
+    background-color: rgb(251, 239, 255);
+    /* background-color: rgb(253, 247, 255); */
+    /*background-image: linear-gradient(90deg, black, rgb(46, 26, 233));
+    color: hsl(0 0% 100% / 0.25);
+    background-clip: text;*/
+    padding: 50px 80px;
+    text-align: center;
+    margin-top: 50px;
+}
+.sec-1 h2{
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec-1 p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sec-1 img{
+    width: 80%;
+}
+
+.sec-2{
+    background-color: rgb(255, 255, 255);
+    padding: 50px 80px;
+    text-align: center;
+}
+.sec-2 h2{
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec-2 p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sec-2 img{
+    width: 80%;
+}
+
+.hero {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    margin: 20px 20px;
+    display: inline-block;
+    padding: 15px 120px;
+    background-color: #3a3a3a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #606060;
+}
+.main-box{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.main-box img{
+    width: 50%;
+    height: 50%;
+    margin-right: 100px;
+}
+
+.box {
+    width: 900px;  
+    height: 150px;  
+    background-color: #fcfcfc; 
+    border: 1px solid #ddd; 
+    border-radius: 9px; 
+    margin: 20px;  
+    padding: 10px;
+}
+
+.box h1,  
+.box h2 {  
+    text-align: left;
+    margin:2px 7px; 
+    font-size: 20px;
+}
+
+.box p {  
+    text-align: left;
+    margin: 16px 7px;
+    font-size: 17px;
+    font-style: italic; 
+}
+.text{
+    width:650px;
+    padding: 7px 10px;
+    border-radius: 5px; 
+}
+  

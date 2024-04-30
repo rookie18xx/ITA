@@ -1,0 +1,45 @@
+.header {
+    background-image: linear-gradient(30deg, black, rgb(2, 2, 56));
+    color: white;
+    padding: 20px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+}
+
+.header .logo {
+    margin: 5px 2px;
+    font-size: 24px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 16px;
+    font-style: italic ,sans-serif;
+}
+
+.main-nav ul li:last-child {
+    margin-right: 0;
+}
+
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    margin: 2px 8px;
+    padding: 0 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}

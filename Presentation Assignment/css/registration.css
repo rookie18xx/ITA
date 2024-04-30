@@ -1,0 +1,73 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container-2 {
+  max-width: 1400px;
+  margin-top: 70px;
+}
+.contain{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.main-box{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.left-side{
+  max-width: 500px;
+  margin-left: 90px;
+}
+.sec-2{
+  background-color: rgb(255, 255, 255);
+  padding: 50px 80px;
+  text-align: center;
+}
+.sec-2 h2{
+  font-size: 36px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sec-2 p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.sec-2 img{
+  width: 80%;
+}
+form {
+  max-width: 1400px;
+  margin: 70px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.btn {
+  margin: 20px 20px;
+  display: inline-block;
+  padding: 15px 120px;
+  background-color: #3a3a3a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #606060;
+}

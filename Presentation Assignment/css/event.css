@@ -1,0 +1,145 @@
+/* Styles for event calendar page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin: 2px 8px;
+    padding: 0 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.contain {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+
+
+.header {
+    background-color: #33393f;
+    color: #fff;
+    padding: 20px 0;
+    
+}
+
+.header .logo {
+    margin: 5px 2px;
+    font-size: 24px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.main-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.main-nav ul li a:hover {
+    background-color: #4b4c4e;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+  .event-calendar {
+    padding: 50px 0;
+  }
+  
+  .event-calendar h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .calendar-header {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .calendar-date {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .current-month {
+    background-color: #f8f9fa; /* Light gray for current month */
+  }
+  
+  .today {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .event {
+    background-color: #ffc107; /* Yellow for event dates */
+  }
+  
+  .event-details {
+    margin-top: 50px;
+  }
+  
+  .event-details h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .register-btn {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .register-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  

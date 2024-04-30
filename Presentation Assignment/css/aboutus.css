@@ -1,0 +1,75 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 2px 8px;
+    padding: 0 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.contain {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.sec-1{
+    background-color: rgb(251, 239, 255);
+    padding: 30px 80px;
+    margin-top: 70px;
+}
+.sec-1 h1{
+    font-size: 36px;
+}
+.main-box{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.main-box img{
+    width: 50%;
+    height:70vh;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about {
+    padding: 15px 0;
+}
+
+.about h2 {
+    font-size: 36px;
+    text-decoration: underline;
+    margin: 10px auto;
+}
+
+.about h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.about p {
+    font-size: 18px;
+    margin:30px 20px;
+}
+
+.about blockquote {
+    margin-bottom: 20px;
+}
+
+.about blockquote p {
+    font-style: italic;
+}
+
+.about blockquote cite {
+    font-weight: bold;
+}
+
